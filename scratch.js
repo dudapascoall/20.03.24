@@ -148,11 +148,12 @@ function deslizarParaBaixo() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    var sound = new Audio("https://www.smule.com/recording/moranguinho-moranguinho-aventura-em-tutti-frutti-abertura/3028474443_4670139228?channel=Copy-Link");
+document.addEventListener("DOMContentLoaded", function() {
+    var sound = new Audio("./moranguinho.mp3");
     var button = document.getElementById("moverParaEsquerda");
 
-    button.addEventListener('click', function() {
+    button.addEventListener("click", function() {
         sound.play();
     });
 });
+
